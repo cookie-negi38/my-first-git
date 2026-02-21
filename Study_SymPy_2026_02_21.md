@@ -20,7 +20,9 @@ or
 from sympy import symbols, factor
 
 x = symbols('x')
+
 a = factor(x**2 - 1)
+
 print(a)
 
 #'a' can be anything as long as it doesn't overlap with the others.
